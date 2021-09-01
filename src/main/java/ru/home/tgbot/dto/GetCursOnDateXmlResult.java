@@ -16,7 +16,7 @@ public class GetCursOnDateXmlResult {
 
     @XmlElementWrapper(name = "ValuteData", namespace = "")
     @XmlElement(name = "ValuteCursOnDate", namespace = "")
-    private List<ValuteCursOnDate> valueData = new ArrayList<>();
+    private List<ValuteCursOnDate> valuteData = new ArrayList<>();
 
 
 }
