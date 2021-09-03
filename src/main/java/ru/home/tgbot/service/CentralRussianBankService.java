@@ -6,7 +6,6 @@ package ru.home.tgbot.service;
 
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
 import org.springframework.ws.client.core.WebServiceTemplate;
 import ru.home.tgbot.dto.GetCursOnDateXml;
 import ru.home.tgbot.dto.GetCursOnDateXmlResponse;
