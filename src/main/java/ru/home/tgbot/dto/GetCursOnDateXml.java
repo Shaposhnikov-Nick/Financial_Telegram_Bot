@@ -12,11 +12,11 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 
-@XmlRootElement(name = "GetCursOnDateXml", namespace = "web.cbr.ru")
-@Data
+@XmlRootElement(name = "GetCursOnDateXML", namespace = "http://web.cbr.ru/")
+@Data //Геттеры и сеттеры
 public class GetCursOnDateXml {
 
     //Указание на то, в каком теге XML должно быть данное поле
-    @XmlElement(name = "on_Date", required = true, namespace = "web.cbr.ru")
+    @XmlElement(name = "On_date", required = true, namespace = "http://web.cbr.ru/")
     protected XMLGregorianCalendar onDate;
 }

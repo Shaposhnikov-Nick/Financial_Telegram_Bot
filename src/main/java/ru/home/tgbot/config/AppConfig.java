@@ -22,6 +22,7 @@ import java.nio.charset.StandardCharsets;
 
 @Configuration
 public class AppConfig {
+
     @Bean
     public CentralRussianBankService cbrService() throws SOAPException {
         CentralRussianBankService cbrService = new CentralRussianBankService();

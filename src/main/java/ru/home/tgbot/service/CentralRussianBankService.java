@@ -19,8 +19,9 @@ import java.util.GregorianCalendar;
 import java.util.List;
 
 // наследуем класс от WebServiceTemplate, который предоставляет удобный способ взаимодействия с SOAP веб сервисами
+//Данный класс наследуется от WebServiceTemplate, который предоставляет удобный способ взаимодействия с SOAP веб сервисами
 public class CentralRussianBankService extends WebServiceTemplate {
-    // сюда поставляется значение из application.properties
+    //Тут случается некоторая магия Spring и в момент запуска вашего приложения, сюда поставляется значение из application.properties или application.yml
     @Value("${cbr.api.url}")
     private String cbrApiUrl;
 
